@@ -55,7 +55,7 @@ const EditAddress = props => {
             <Input
               type={'text'}
               error={formErrors['state']}
-              label={'State'}
+              label={'Province'}
               name={'state'}
               placeholder={'State'}
               value={address.state}
