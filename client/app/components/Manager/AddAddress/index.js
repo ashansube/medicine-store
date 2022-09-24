@@ -56,7 +56,7 @@ const AddAddress = props => {
               error={formErrors['state']}
               label={'Province'}
               name={'state'}
-              placeholder={'State'}
+              placeholder={'Province'}
               value={addressFormData.state}
               onInputChange={(name, value) => {
                 addressChange(name, value);
