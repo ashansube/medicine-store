@@ -37,20 +37,20 @@ class Homepage extends React.PureComponent {
           </Col>
           <Col xs='12' lg='3' className='order-lg-1 mb-3 px-3 px-md-2'>
             <div className='d-flex flex-column h-100 justify-content-between'>
-            <a href="https://online-medicine-store.herokuapp.com/shop/category/medicines">
+            <a href="/shop/category/medicines">
               <img src='/images/banners/banner-2.png' className='mb-3' />
             </a>  
-            <a href="https://online-medicine-store.herokuapp.com/shop/category/heart-care">
+            <a href="/shop/category/heart-care">
               <img src='/images/banners/banner-5.png' />
             </a>
             </div>
           </Col>
           <Col xs='12' lg='3' className='order-lg-3 mb-3 px-3 px-md-2'>
             <div className='d-flex flex-column h-100 justify-content-between'>
-            <a href="https://online-medicine-store.herokuapp.com/shop/category/home-care">
+            <a href="/shop/category/home-care">
               <img src='/images/banners/banner-1.png' className='mb-3' />
             </a>
-            <a href="https://online-medicine-store.herokuapp.com/shop/category/muscle-and-joint-care">
+            <a href="/shop/category/muscle-and-joint-care">
               <img src='/images/banners/banner-6.png' />
             </a>  
             </div>
