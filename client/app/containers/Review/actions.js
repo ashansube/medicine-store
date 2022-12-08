@@ -181,10 +181,7 @@ export const addProductReview = () => {
         dispatch(success(successfulOptions));
         dispatch(fetchProductReviews(product.slug));
 
-        // dispatch({
-        //   type: ADD_REVIEW,
-        //   payload: response.data.review
-        // });
+
         dispatch({ type: RESET_REVIEW });
       }
     } catch (error) {
